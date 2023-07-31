@@ -1,0 +1,33 @@
+h1 {
+  color: #001B48 !important;
+}
+
+
+/* CheckRecord.module.css */
+
+/* ... your existing styles ... */
+
+.line_container {
+  position: relative;
+  height: 8px;
+  background-color: #074370;
+  margin: 1.5rem;
+
+}
+
+.audio_circle {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #96d0f6;
+  cursor: pointer;
+  transition: left 0.3s ease;
+} 
+
+.cursor{
+  cursor: pointer;
+}
+

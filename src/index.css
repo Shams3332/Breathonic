@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400;1,700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body {
+  /* font-family: 'Lato', sans-serif; */
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.live-demo {
+  position:absolute;
+
+  top: 10%;
+  right: 0;
+  width: 400px;
+  height: 100%;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  transition: transform 1s ease-out;
+  z-index: 9999;
+  border-radius: 15px 0 0 0;
+}
+
+.live-demo.open {
+  transform: translateX(100%);
+}
+
+
+.form-control:focus{
+  box-shadow: 0 0 0 0 transparent;
+  /* border: none; */
+
+}
+

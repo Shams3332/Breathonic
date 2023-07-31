@@ -1,0 +1,60 @@
+.foot1{
+  background-color: #97CADB;
+  text-align: center;
+  width: 100%;
+  color: #001B48;
+}
+.foot2{
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+  width: 100%;
+  color: #fff !important;
+}
+.copy{
+  font-size: x-small;
+}
+.sign{
+  color:#0095FF;
+}
+.breathe{
+  border: 2px  solid #0095FF;
+  border-radius: 50%;
+  padding: .25rem;
+  width: 1rem;
+  height: 1rem;
+}
+.btn_color{
+  background-color:#001B48;
+  color: #fff;
+  border-radius: .5rem;
+  border: none;
+}
+.btn_color:hover{
+  background-color: #0f0c29;
+  color: #fff;
+}
+footer{
+  overflow-x: hidden;
+  margin-top: 5rem;
+}
+/* ----------------
+responsive 
+----------------- */
+
+/* Mobile */
+@media (max-width: 767px) {
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

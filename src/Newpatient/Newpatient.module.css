@@ -1,0 +1,50 @@
+.new{
+  color: #207693a5;
+  
+}
+.iconUser {
+  top: 30%;
+  padding: 0px 10px;
+  left: 0;
+  color: #001B48;
+}
+
+
+.user input {
+  padding-left: 2rem;
+}
+.btn_patient{
+
+  color: #fff;
+  background-color: #001B48;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+
+}
+.btn_patient:hover{
+  background-color:  #207693a5;
+}
+.new_patient{
+  background-color: #bee0eba5 ;
+}
+
+
+
+
+
+
+
+
+/* ----------------
+responsive 
+----------------- */
+
+/* Mobile */
+@media (max-width: 767px) {
+  .user{
+    width: 100%;
+  }
+
+}

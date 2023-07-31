@@ -1,0 +1,13 @@
+.btn_patient{
+
+  color: #fff;
+  background-color: #001B48;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+
+}
+.btn_patient:hover{
+  background-color:  #207693a5;
+}

@@ -1,0 +1,66 @@
+.navLogin {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border-radius: 15px 0 0 0;
+}
+.login{
+    background-color: black !important;
+}
+
+.navLogin i{
+    cursor: pointer;
+}
+
+.user input {
+    padding: 15px;
+    border: none;
+    width: 15%;
+    text-align: center;
+}
+
+.user input::placeholder {
+    border-bottom: 2px solid black;
+    text-align: center;
+    
+  }
+
+.formControlCustom {
+    width: 15%;
+}
+
+.formControlCustom:focus {
+    border: none;
+}
+
+.iconUser {
+    top: 30%;
+    padding: 0px 10px;
+}
+
+.sin{
+    background: linear-gradient( rgb(147, 219, 248),#fff);
+}
+
+.content h6 {
+    font-size: 14px;
+}
+
+.otherLogin h5 span{
+    color:#487e98;
+}
+
+.otherLogin i{
+    color: #487e98;
+}
+
+.btn_log{
+    background-color:  #001B48;
+    color: #fff;
+    border: none;
+    padding: .5rem;
+}
+.btn_log:hover{
+    background-color: #487e98;
+    color: #fff;
+}

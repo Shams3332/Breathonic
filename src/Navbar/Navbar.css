@@ -1,0 +1,87 @@
+nav{
+z-index: 9;
+}
+
+.logo{
+  width: 8rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.nav-link:focus, .nav-link:hover{
+  color:#97CADB !important;
+}
+@media only screen and (max-width: 600px){
+
+  .form-control{
+    width: 50%;
+  }
+  .nav-link{
+    margin: auto;
+    text-align: center;
+  }
+  .dropdown-menu{
+    border: none !important;
+    text-align: center;
+
+  }
+  .dropdown-item.active, .dropdown-item:active{
+    background-color: transparent;
+    color: #97CADB;
+  }
+  .logo{
+    margin-top: 0%;
+  }
+
+}
+
+
+
+/* App.css */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.register-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.register-popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.close {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+.add_icon{
+  color: #22afde;
+}
+
